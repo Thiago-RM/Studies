@@ -1,5 +1,5 @@
 # Directory Structure  
   
-📦JavaScript
- ┣ 📂Basic-Fundamentals
- ┗ 📜README.md
+📦JavaScript  
+ ┣ 📂Basic-Fundamentals  
+ ┗ 📜README.md  
