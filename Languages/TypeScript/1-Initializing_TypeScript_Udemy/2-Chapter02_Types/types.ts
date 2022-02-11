@@ -1,3 +1,3 @@
 // string type in javascript
-const theName = 'Pedro';
+let theName = 'Pedro';
 console.log(theName);
