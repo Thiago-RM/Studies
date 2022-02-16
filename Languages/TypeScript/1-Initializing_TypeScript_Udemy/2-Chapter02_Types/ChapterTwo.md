@@ -16,16 +16,27 @@ console.log(typeof minhaIdade);
 minhaIdade = '36';
 ~~~   
 
-## Aula 19 -  Tuplas
+## Class 18 -  Tuplas
 
 It is an array with predefined types in its filling.
 For example: one number and two string types.  
-  
+
+## Class 19 -  Enums
+When assigning fixed values, the enum follows the established
+numerical order from the immediately preceding member. For example:  
 
 ~~~typescript
- 
+enum Cor {
+ Cinza,
+ Verde,
+ Azul
+}
+
+let minhaCor : Cor = Cor.Verde;
+console.log(minhaCor);
+
+//if the "Verde" color is equal to 100, 
+// then the "Azul" will receive 101,but "Grey" will 
+// continue to receive 0
 ~~~  
-
-~~~json
-
-~~~
+Each enum value can be determined by the programmer
