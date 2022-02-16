@@ -14,8 +14,13 @@ let minhaIdade;
 minhaIdade = 36;
 console.log(typeof minhaIdade);
 minhaIdade = '36';
-~~~ 
-## List Commands  
+~~~   
+
+## Aula 19 -  Tuplas
+
+It is an array with predefined types in its filling.
+For example: one number and two string types.  
+  
 
 ~~~typescript
  
