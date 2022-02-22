@@ -1,4 +1,4 @@
-let nomeDaAula: string = 'Aula sobre os tipos de um array';
+let nomeDaAula: string = 'Lesson on the types of an array';
 console.log("\n\n" + nomeDaAula);
 
 let hobbies: string[] = ["Cozinhar", "Praticar Esportes"];

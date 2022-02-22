@@ -1,10 +1,10 @@
 // string type in javascript
-let theName = 'Pedro';
+var theName = 'Pedro';
 console.log(theName);
 
 let idade = 27;
 console.log(idade);
-
+0
 // Comment in portuguese:
 /* Nem sempre o compilador determinará o tipo de variável, ou seja
 * caso ela não seja inicializada. Exemplo: */

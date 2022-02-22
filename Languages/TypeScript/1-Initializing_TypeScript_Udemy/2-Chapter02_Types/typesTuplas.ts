@@ -1,4 +1,4 @@
-let aula18: string = 'Aula sobre tuplas';
+let aula18: string = 'Tuple class';
 console.log("\n\n" + aula18);
 
 //No tuples

@@ -1,4 +1,4 @@
-let aula19: string = 'Aula sobre enums';
+let aula19: string = 'Lesson about enums';
 console.log("\n\n" + aula19);
 
 enum Cor {
