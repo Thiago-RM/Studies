@@ -39,4 +39,8 @@ console.log(minhaCor);
 // then the "Azul" will receive 101,but "Grey" will 
 // continue to receive 0
 ~~~  
-Each enum value can be determined by the programmer
+Each enum value can be determined by the programmer  
+
+## Class 23 -  Functions like a type
+
+We are dealing here with a function that receives a certain signature  
