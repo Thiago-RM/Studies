@@ -43,4 +43,4 @@ Each enum value can be determined by the programmer
 
 ## Class 23 -  Functions like a type
 
-We are dealing here with a function that receives a certain signature  
+We are dealing here with a function that receives a certain signature.  
