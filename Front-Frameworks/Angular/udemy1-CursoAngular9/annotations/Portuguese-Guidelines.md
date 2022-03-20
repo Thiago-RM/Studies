@@ -21,6 +21,7 @@ Posso utilizar a diretiva por toda a aplicação!
 Relembrnado: Diretivas são componentes sem templates!  
 
 **1. Sobre a ligação do html com ts no Angular**:  
+  
 a) [ ] --> Property binding = ouve eventos de atributos no component (one way data binding);  
 
 b) () --> Event binding = executa ações no ts enviadas pelo html;  
