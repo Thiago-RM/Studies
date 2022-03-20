@@ -35,15 +35,15 @@ Posso utilizar a diretiva por toda a aplicação!
 > Para não esquecer!  
 Relembrnado: Diretivas são componentes sem templates!  
 
-**1. Sobre a ligação do html com ts no Angular**:  
+1. **Sobre a ligação do html com ts no Angular**:  
   
-a) [ ] --> Property binding = ouve eventos de atributos no component (one way data binding);  
+    a) [ ] --> Property binding = ouve eventos de atributos no component (one way data binding);  
 
-b) () --> Event binding = executa ações no ts enviadas pelo html;  
+    b) () --> Event binding = executa ações no ts enviadas pelo html;  
 
-c) [()] --> Two way data binding = mudan ambos os lado (usa ngModel);  
+    c) [()] --> Two way data binding = mudan ambos os lado (usa ngModel);  
 
-d) {{ variavel || date }} --> interolação == utilizando pipes -- colabora com a formatação de um elemento por exemplo.  
+    d) {{ variavel || date }} --> interolação == utilizando pipes -- colabora com a formatação de um elemento por exemplo.  
 
 OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 
