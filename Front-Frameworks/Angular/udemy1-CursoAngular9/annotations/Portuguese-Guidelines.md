@@ -54,6 +54,19 @@ OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 
 ***
 &nbsp;  
-&nbsp;  
-&nbsp;  
 
+# Elementos do angular #02:  
+
+## Programação Reativa:  
+
+* rxjs &nbsp; ⇨ &nbsp;  ReactiveX;  
+    
+Padrão mais utilizado na web == **Observer!**. A partir disso temos que:  
+
+1. É um padrão orientado a evento.  
+
+## Entendendo Observables:  
+
+> Callbacks: Função como parâmetro para outra função!  
+  
+> Observables: encapsulam o padrão observer ⇨ De forma reativa age quando o evento acontece! ⇨ Lembrar que são reutilizáveis!
