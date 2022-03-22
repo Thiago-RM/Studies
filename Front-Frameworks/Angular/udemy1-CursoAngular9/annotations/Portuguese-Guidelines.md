@@ -70,3 +70,5 @@ Padrão mais utilizado na web == **Observer!**. A partir disso temos que:
 > Callbacks: Função como parâmetro para outra função!  
   
 > Observables: encapsulam o padrão observer ⇨ De forma reativa age quando o evento acontece! ⇨ Lembrar que são reutilizáveis!
+***
+&nbsp;  
