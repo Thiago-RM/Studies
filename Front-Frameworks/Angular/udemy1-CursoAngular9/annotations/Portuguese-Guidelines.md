@@ -8,11 +8,11 @@ pricipal da aplicação em Angular.)
 Importante: a pasta assets é responsável por armazenar arquivos estáticos!  
 
 mat-elevation-z4 == elemento do Material Toolbar que dá um aspecto elevado a toolbar criada no header!  
-  
-  
-  
-  
-  
+
+***
+&nbsp;  
+&nbsp;  
+&nbsp;  
 # Elementos do angular #01:  
   
 1. Módulo: responsável por agrupar todos os demais elementos como components, directives, pipes
@@ -53,4 +53,9 @@ OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
     {{ produto. vencimento | date: 'fullDate' | uppercase }}
 </p>
 ```
- 
+
+***
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
