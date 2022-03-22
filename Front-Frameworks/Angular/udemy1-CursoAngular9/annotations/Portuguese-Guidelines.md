@@ -10,7 +10,6 @@ Importante: a pasta assets é responsável por armazenar arquivos estáticos!
 mat-elevation-z4 == elemento do Material Toolbar que dá um aspecto elevado a toolbar criada no header!  
 
 ***
-&nbsp;  
 &nbsp; 
 # Elementos do angular #01:  
   
