@@ -72,3 +72,22 @@ Padrão mais utilizado na web == **Observer!**. A partir disso temos que:
 > Observables: encapsulam o padrão observer ⇨ De forma reativa age quando o evento acontece! ⇨ Lembrar que são reutilizáveis!
 ***
 &nbsp;  
+
+# Elementos do angular #03: 
+
+## Services
+
+**Conceito:** Tem por finalidade organizar e compartilhar métodos e dados entre componentes.  
+
+    Criando service:
+```Ts  
+ng g s services/product
+```  
+
+Usa-se a rota usando a ***injeção de dpendências!**  
+  
+**root &nbsp; ⇨&nbsp;** Um aliás para o AppModule dentro da Service, ou, um root injector! O bootstrap = componente de start, o principal da aplicação!  
+
+aspas são usadas para o root, ou seja, o aliás do appModule
+<!-- ***
+&nbsp;   -->
