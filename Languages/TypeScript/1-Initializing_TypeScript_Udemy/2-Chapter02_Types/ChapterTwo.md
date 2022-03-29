@@ -44,3 +44,8 @@ Each enum value can be determined by the programmer
 ## Class 23 -  Functions like a type
 
 We are dealing here with a function that receives a certain signature.  
+  
+## Class 28 - UnionTypes
+
+In the UnionTypes.ts class see about backticks. Click in the link for more
+[Union Types](UnionTypes.ts)
