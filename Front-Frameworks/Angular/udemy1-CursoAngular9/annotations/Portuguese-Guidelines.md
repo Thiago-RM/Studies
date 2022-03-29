@@ -3,7 +3,7 @@
 2. [`Elementos do angular #01 `](#elementos-do-angular-01)
 3. [`elementos-do-angular #02 `](#elementos-do-angular-02)
 4. [`elementos-do-angular #03 `](#elementos-do-angular-03)
-
+***
 <br><br>
 
 # Alguns passos importantes na criação 
@@ -18,7 +18,8 @@ Importante: a pasta assets é responsável por armazenar arquivos estáticos!
 mat-elevation-z4 == elemento do Material Toolbar que dá um aspecto elevado a toolbar criada no header!  
 
 ***
-&nbsp; 
+<br><br>
+
 # Elementos do angular #01:  
   
 1. Módulo: responsável por agrupar todos os demais elementos como components, directives, pipes
@@ -61,7 +62,7 @@ OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 ```
 
 ***
-&nbsp;  
+<br><br>
 
 # Elementos do angular #02:  
 
@@ -79,7 +80,7 @@ Padrão mais utilizado na web == **Observer!**. A partir disso temos que:
   
 > Observables: encapsulam o padrão observer ⇨ De forma reativa age quando o evento acontece! ⇨ Lembrar que são reutilizáveis!
 ***
-&nbsp;  
+<br><br>
 
 # Elementos do angular #03: 
 
