@@ -18,7 +18,7 @@ Importante: a pasta assets é responsável por armazenar arquivos estáticos!
 mat-elevation-z4 == elemento do Material Toolbar que dá um aspecto elevado a toolbar criada no header!  
 
 ***
-<br><br>
+<br>
 
 # Elementos do angular #01:  
   
@@ -62,7 +62,7 @@ OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 ```
 
 ***
-<br><br>
+<br>
 
 # Elementos do angular #02:  
 
@@ -80,7 +80,7 @@ Padrão mais utilizado na web == **Observer!**. A partir disso temos que:
   
 > Observables: encapsulam o padrão observer ⇨ De forma reativa age quando o evento acontece! ⇨ Lembrar que são reutilizáveis!
 ***
-<br><br>
+<br>
 
 # Elementos do angular #03: 
 
