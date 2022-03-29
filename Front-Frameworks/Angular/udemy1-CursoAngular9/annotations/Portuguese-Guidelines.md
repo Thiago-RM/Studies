@@ -3,10 +3,8 @@
 2. [`Elementos do angular #01 `](#elementos-do-angular-01)
 3. [`elementos-do-angular #02 `](#elementos-do-angular-02)
 4. [`elementos-do-angular #03 `](#elementos-do-angular-03)
-&nbsp; 
-&nbsp; 
-&nbsp;
 
+<br><br><br><br>
 
 # Alguns passos importantes na criação 
 
