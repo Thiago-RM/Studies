@@ -1,3 +1,13 @@
+# Índice
+1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)
+2. [`Elementos do angular #01 `](#elementos-do-angular-01)
+3. [`elementos-do-angular #02 `](#elementos-do-angular-02)
+4. [`elementos-do-angular #03 `](#elementos-do-angular-03)
+&nbsp; 
+&nbsp; 
+&nbsp;
+
+
 # Alguns passos importantes na criação 
 
 1) ng g c [diretório-component/diretório-template(ou outro)/nome-do-component]  
@@ -91,3 +101,5 @@ Usa-se a rota usando a ***injeção de dpendências!**
 aspas são usadas para o root, ou seja, o aliás do appModule
 <!-- ***
 &nbsp;   -->
+
+(link)
