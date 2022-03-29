@@ -4,7 +4,7 @@
 3. [`elementos-do-angular #02 `](#elementos-do-angular-02)
 4. [`elementos-do-angular #03 `](#elementos-do-angular-03)
 
-<br><br><br><br>
+<br><br>
 
 # Alguns passos importantes na criação 
 
