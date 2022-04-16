@@ -1,8 +1,10 @@
 # Índice
 1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)
 2. [`Elementos do angular #01 `](#elementos-do-angular-01)
-3. [`elementos-do-angular #02 `](#elementos-do-angular-02)
-4. [`elementos-do-angular #03 `](#elementos-do-angular-03)
+3. [`Elementos-do-angular #02 `](#elementos-do-angular-02)
+4. [`Elementos-do-angular #03 `](#elementos-do-angular-03)
+5. [`Método Criar Produto `](#método-criar-produto-01)
+
 ***
 <br><br>
 
@@ -101,4 +103,20 @@ aspas são usadas para o root, ou seja, o aliás do appModule
 <!-- ***
 &nbsp;   -->
 
-(link)
+Veja na linha onde temos providedIn: 'root'. [`Arquivo de referência para o root`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
+<br>
+
+# Método Criar Produto 
+
+## Método Post
+
+**Observação:** O post retorna um _**observable**_ tipado e para isso precisamos usar generics no método post (< > _diamond notation_); 
+
+
+Veja o trecho de código da service onde é montada a notação Observable
+ [`Linhas 27 a 30`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
+
+```Ts  
+Observable<Product>
+```  
+

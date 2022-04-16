@@ -16,9 +16,14 @@
       "price": 5000.89
     },
     {
-      "name": "",
-      "price": "",
+      "name": "Produto de teste",
+      "price": 125.98,
       "id": 4
+    },
+    {
+      "name": "Veio do Formuláro",
+      "price": "9.99",
+      "id": 5
     }
   ]
 }
