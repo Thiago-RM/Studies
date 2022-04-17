@@ -7,6 +7,8 @@ console.log(`\n\n ${aula28}`);
 /*let nota = 10;
 console.log(`Minha nota é ${nota}`);*/
 
+// ${ interpolation }
+
 //Example for Union Types
 
 let nota2: number | string = 10;
