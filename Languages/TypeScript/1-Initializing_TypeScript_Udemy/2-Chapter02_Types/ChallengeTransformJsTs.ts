@@ -25,7 +25,7 @@ console.log(`Fim da aplicação.`);
 Resetting the application to receive the 3000 deposit from the account
 holder, otherwise, the amount will be added to the previous deposit
 */
-contaBancaria.saldo = 0;
+// contaBancaria.saldo = 0;
 
 /* Exemplo Correntista*/
 type correntista = {
