@@ -120,3 +120,18 @@ Veja o trecho de código da service onde é montada a notação Observable
 Observable<Product>
 ```  
 
+<br>
+
+# Método Criar Produto 
+
+## Método Post
+
+**Observação:** O post retorna um _**observable**_ tipado e para isso precisamos usar generics no método post (< > _diamond notation_); 
+
+
+Veja o trecho de código da service onde é montada a notação Observable
+ [`Linhas 27 a 30`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
+
+```Ts  
+Observable<Product>
+```  
