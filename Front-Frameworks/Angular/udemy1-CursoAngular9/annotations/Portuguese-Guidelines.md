@@ -1,9 +1,11 @@
 # Índice
-1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)
-2. [`Elementos do angular #01 `](#elementos-do-angular-01)
-3. [`Elementos-do-angular #02 `](#elementos-do-angular-02)
-4. [`Elementos-do-angular #03 `](#elementos-do-angular-03)
-5. [`Método Criar Produto `](#método-criar-produto-01)
+1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)  
+2. [`Elementos do angular #01 `](#elementos-do-angular-01)  
+3. [`Elementos-do-angular #02 `](#elementos-do-angular-02)  
+4. [`Elementos-do-angular #03 `](#elementos-do-angular-03)  
+5. [`Método Criar Produto `](#método-criar-produto)  
+6. [`Elementos-do-angular #04: `](#elementos-do-angular-04) 
+7. [`Utilizando o schematic do Material Design `](#utilizando-o-schematic-do-material-design)  
 
 ***
 <br><br>
@@ -122,16 +124,39 @@ Observable<Product>
 
 <br>
 
-# Método Criar Produto 
+# Elementos do angular #04: 
 
-## Método Post
+## Service
 
-**Observação:** O post retorna um _**observable**_ tipado e para isso precisamos usar generics no método post (< > _diamond notation_); 
+**Conceito:** Tem por finalidade organizar e compartilhar métodos e dados entre componentes.  
 
-
-Veja o trecho de código da service onde é montada a notação Observable
- [`Linhas 27 a 30`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
-
+    Criando service:
 ```Ts  
-Observable<Product>
+ng g s services/product
 ```  
+
+Usa-se a rota usando a ***injeção de dpendências!**  
+  
+**root &nbsp; ⇨&nbsp;** Um aliás para o AppModule dentro da Service, ou, um root injector! O bootstrap = componente de start, o principal da aplicação!  
+
+aspas são usadas para o root, ou seja, o aliás do appModule
+<!-- ***
+&nbsp;   -->
+
+Veja na linha onde temos providedIn: 'root'. [`Arquivo de referência para o root`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
+<br>
+
+# Utilizando o schematic do Material Design 
+
+## Linha de comando  
+
+```npm  
+    ng generate @angular/material:table <component-name>
+```  
+
+**Observação:** Sobre o _@ViewChild_ &nbsp; ⇨&nbsp; percorre o html para encontrar o componente visual selecionado! Uma vez encontrado o componente visual do html, ela insere em uma variável selecionada pelo programador! Exemplo:  
+  
+```Ts  
+@ViewChild(MatPaginator) paginator: MatParginator;  
+```
+<br>
