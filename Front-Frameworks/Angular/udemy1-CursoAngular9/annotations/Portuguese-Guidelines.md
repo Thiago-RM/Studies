@@ -1,11 +1,10 @@
 # Índice
 1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)  
-2. [`Elementos do angular #01 `](#elementos-do-angular-01)  
-3. [`Elementos-do-angular #02 `](#elementos-do-angular-02)  
-4. [`Elementos-do-angular #03 `](#elementos-do-angular-03)  
+2. [`Elementos do Angular #01 `](#elementos-do-angular-01)  
+3. [`Elementos-do-Angular #02 `](#elementos-do-angular-02)  
+4. [`Elementos-do-Angular #03 `](#elementos-do-angular-03)  
 5. [`Método Criar Produto `](#método-criar-produto)  
-6. [`Elementos-do-angular #04: `](#elementos-do-angular-04) 
-7. [`Utilizando o schematic do Material Design `](#utilizando-o-schematic-do-material-design)  
+6. [`Utilizando o schematic do Material Design `](#utilizando-o-schematic-do-material-design)  
 
 ***
 <br><br>
@@ -24,7 +23,7 @@ mat-elevation-z4 == elemento do Material Toolbar que dá um aspecto elevado a to
 ***
 <br>
 
-# Elementos do angular #01:  
+# Elementos do Angular #01:  
   
 1. Módulo: responsável por agrupar todos os demais elementos como components, directives, pipes
 e services relacionados a aplicação.  
@@ -54,7 +53,7 @@ Relembrnado: Diretivas são componentes sem templates!
 
     c) [()] --> Two way data binding = mudan ambos os lado (usa ngModel);  
 
-    d) {{ variavel || date }} --> interolação == utilizando pipes -- colabora com a formatação de um elemento por exemplo.  
+    d) {{ variavel || date }} --> interpolação == utilizando pipes -- colabora com a formatação de um elemento por exemplo.  
 
 OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 
@@ -68,7 +67,7 @@ OBS: **posso ter uma cadeia de pipes (Chaining).** Exemplo:
 ***
 <br>
 
-# Elementos do angular #02:  
+# Elementos do Angular #02:  
 
 ## Programação Reativa:  
 
@@ -86,7 +85,7 @@ Padrão mais utilizado na web == **Observer!**. A partir disso temos que:
 ***
 <br>
 
-# Elementos do angular #03: 
+# Elementos do Angular #03: 
 
 ## Services
 
@@ -102,9 +101,7 @@ Usa-se a rota usando a ***injeção de dpendências!**
 **root &nbsp; ⇨&nbsp;** Um aliás para o AppModule dentro da Service, ou, um root injector! O bootstrap = componente de start, o principal da aplicação!  
 
 aspas são usadas para o root, ou seja, o aliás do appModule
-<!-- ***
-&nbsp;   -->
-
+  
 Veja na linha onde temos providedIn: 'root'. [`Arquivo de referência para o root`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
 <br>
 
@@ -122,28 +119,6 @@ Veja o trecho de código da service onde é montada a notação Observable
 Observable<Product>
 ```  
 
-<br>
-
-# Elementos do angular #04: 
-
-## Service
-
-**Conceito:** Tem por finalidade organizar e compartilhar métodos e dados entre componentes.  
-
-    Criando service:
-```Ts  
-ng g s services/product
-```  
-
-Usa-se a rota usando a ***injeção de dpendências!**  
-  
-**root &nbsp; ⇨&nbsp;** Um aliás para o AppModule dentro da Service, ou, um root injector! O bootstrap = componente de start, o principal da aplicação!  
-
-aspas são usadas para o root, ou seja, o aliás do appModule
-<!-- ***
-&nbsp;   -->
-
-Veja na linha onde temos providedIn: 'root'. [`Arquivo de referência para o root`](https://github.com/Thiago-RM/Studies/blob/1ed20988c90d05a2f798c1af4e293f1e876fc6aa/Front-Frameworks/Angular/udemy1-CursoAngular9/crud/frontend/src/app/components/product/product.service.ts)  
 <br>
 
 # Utilizando o schematic do Material Design 
