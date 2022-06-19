@@ -5,5 +5,5 @@ console.log("\n\n" + aula23);
 
 let calculo: (A: number, B: number) => number;
 
-calculo = multiplicar;
+calculo = multiplier;
 console.log(calculo(5, 6));
