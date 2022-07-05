@@ -27,3 +27,24 @@ function mutliplication(n1: number, n2: number) {
 }
 
 console.log(mutliplication(10, 4));
+
+
+// Empty Fuctions
+const saudacao = () => console.log('Teste02');
+saudacao()
+
+const falarCom = (pessoa: string) => console.log('Olá ' + pessoa);
+falarCom('João');
+
+
+// This
+function normalComThis() {
+    // console.log(this);
+}
+normalComThis();
+
+const normalComThisEspecial = normalComThis.bind(2);
+normalComThisEspecial();
+
+// const normalComThisArrow = () => console.log(this, 'Teste');
+// normalComThisArrow();
