@@ -48,4 +48,4 @@ We are dealing here with a function that receives a certain signature.
 ## Class 28 - UnionTypes
 
 In the UnionTypes.ts class see about **_backticks_** and **_interpolation_**. Click in the link for more
-[Union Types](UnionTypes.ts)
+[Union Types](../2-Chapter02_Types/UnionTypes.ts)
