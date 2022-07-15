@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "crud/backend",
+			"problemMatcher": [],
+			"label": "npm: start - crud/backend",
+			"detail": "json-server --watch db.json --port:3001"
+		}
+	]
+}
