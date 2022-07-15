@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "name": "Samsung S20+",
+      "name": "Samsung S20+ ultra",
       "price": 5000.89
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Chaveiro",
-      "price": "12,35",
+      "price": 12.35,
       "id": 6
     }
   ]
