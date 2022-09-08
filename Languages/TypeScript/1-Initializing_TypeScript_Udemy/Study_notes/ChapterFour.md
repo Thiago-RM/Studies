@@ -14,4 +14,12 @@ to be redirected to the code
 ***
 # Module 51 - Spread and Rest operators
 
-* **The rest or spread operator** &nbsp; ⇨ &nbsp; **...**
+* **The rest or spread operator** &nbsp; ⇨ &nbsp; **...** 
+
+The Spread or Rest operator is the ellipsis symbol  
+  
+## SPREAD OPERATOR
+
+* This operator "spreads" the attributes of an array, for example, in the 
+parameters of a function;
+
