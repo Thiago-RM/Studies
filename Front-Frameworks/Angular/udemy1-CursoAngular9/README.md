@@ -2,7 +2,7 @@
   
 📦udemy1-CursoAngular9  
  ┣ 📂annotations  
- ┃ ┣ 📜English-Guidelines.md  
+ ┃ ┣ 📜[`English-Guidelines.md `](https://github.com/Thiago-RM/Studies/blob/689f1c31336a80ee58bb33bca0532f2bc0517cc3/Front-Frameworks/Angular/udemy1-CursoAngular9/annotations/English-Guidelines.md)  
  ┃ ┗ 📜Portuguese-Guidelines.md  
  ┣ 📂crud  
  ┃ ┣ 📂backend  
