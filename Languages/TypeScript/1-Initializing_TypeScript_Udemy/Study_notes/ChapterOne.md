@@ -20,3 +20,9 @@ Remember to run the tsc command on the folder
 "_comment": "Enter the command below for node to initialize and monitor changes in .ts"  
   "dev": "tsc -w & npm run start"
 ~~~
+  
+## Commands for node nvm folders:
+   
+sudo ln -s "$(which node)" /usr/bin/node
+
+sudo ln -s "$(which npm)" /usr/bin/npm
