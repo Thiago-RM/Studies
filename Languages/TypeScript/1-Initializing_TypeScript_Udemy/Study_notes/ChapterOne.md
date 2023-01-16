@@ -26,3 +26,10 @@ Remember to run the tsc command on the folder
 sudo ln -s "$(which node)" /usr/bin/node
 
 sudo ln -s "$(which npm)" /usr/bin/npm
+
+When starting a typescript project use:
+npm init -y
+
+**live-server**: npm i -s live-server
+
+**tsc --init** --> Needed to start typescript projects! Ever!
