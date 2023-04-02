@@ -1,7 +1,7 @@
  # Index  
 [`1) Anotações Gerais`](#1-anotações-gerais)  
-[`2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO`](#2-anotações-sobre-sintaxe-ATRIBUTO COMPOSTO)  
-
+[`2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO`](#2-anotações-sobre-sintaxe-ATRIBUTO-COMPOSTO)  
+[`3) Anotações sobre sintaxe - ATRIBUTO SIMPLES`](#3-anotações-sobre-sintaxe-ATRIBUTO-SIMPLES)
 ***
 <br><br>
 
@@ -41,4 +41,4 @@ var meuObjeto = {
 }
 ```
 
-  
+# 3) Anotações sobre sintaxe - ATRIBUTO SIMPLES
