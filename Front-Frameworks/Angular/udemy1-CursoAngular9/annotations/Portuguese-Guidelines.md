@@ -1,8 +1,8 @@
 # Índice
 1. [`Alguns passos importantes na criação `](#alguns-passos-importantes-na-criação)  
 2. [`Elementos do Angular #01 `](#elementos-do-angular-01)  
-3. [`Elementos-do-Angular #02 `](#elementos-do-angular-02)  
-4. [`Elementos-do-Angular #03 `](#elementos-do-angular-03)  
+3. [`Elementos do Angular #02 `](#elementos-do-angular-02)  
+4. [`Elementos do Angular #03 `](#elementos-do-angular-03)  
 5. [`Método Criar Produto `](#método-criar-produto)  
 6. [`Utilizando o schematic do Material Design `](#utilizando-o-schematic-do-material-design)  
 
