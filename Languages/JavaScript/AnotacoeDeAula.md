@@ -1,6 +1,6 @@
  # Index  
-1. [`Anotações Gerais `](#anotações-gerais)  
-2. [`Anotações sobre sintaxe - ATRIBUTO COMPOSTO  `](#anotações-sobre-sintaxe-atributo-composto)  
+1. [`1) Anotações Gerais `](#anotações-gerais)  
+2. [`2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO  `](#anotações-sobre-sintaxe-atributo-composto)  
 
 ***
 <br><br>
