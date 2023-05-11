@@ -2,6 +2,7 @@
 [`1) Anotações Gerais`](#1-anotações-gerais)  
 [`2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO`](#2-anotações-sobre-sintaxe---ATRIBUTO-COMPOSTO)  
 [`3) Funções`](#3-funções)  
+&nbsp;&nbsp;&nbsp;&nbsp;[`3.1) Tipos de Funções`](#3.1-tipos-de-funções) 
 ***
 <br><br>
 
@@ -47,7 +48,9 @@ var meuObjeto = {
   
 > Podem simular:  
 > + Classes;  
-> + Métodos;;  
-> + Construtores;  
+> + Métodos;  
+> + Construtores; e  
 > + Módulo;  
+
+## 3.1) Tipos de Funções  
   
