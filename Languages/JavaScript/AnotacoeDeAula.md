@@ -44,13 +44,12 @@ var meuObjeto = {
 
 
 # 3) Funções  
-
-  
-> Podem simular:  
-> + Classes;  
-> + Métodos;  
-> + Construtores; e  
-> + Módulo;  
+   
+Podem simular:  
++ Classes;  
++ Métodos;  
++ Construtores; e  
++ Módulo;  
 
 ## 3.1) Tipos de Funções  
   
