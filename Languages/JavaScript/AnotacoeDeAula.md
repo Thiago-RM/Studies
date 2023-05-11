@@ -44,7 +44,7 @@ var meuObjeto = {
 
 # 3) Funções  
 
->[!NOTE]  
+  
 > Podem simular:  
 > + Classes;  
 > + Métodos;;  
