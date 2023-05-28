@@ -7,9 +7,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.1.2) Funciton Expression`](#312-funciton-expression)  
 &nbsp;&nbsp;&nbsp;&nbsp;[`3.2) Exemplo de invocação de funções `](#32-exemplo-de-invocação-de-funções)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.1) Exemplo de invocação com lambda `](#321-exemplo-de-invocação-com-lambda)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.2) Exemplo de invocação função de uma função `](#322-exemplo-de-invocação-função-de-uma-função)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.3) Invocação de função por Objeto `](#323-invocação-de-função-por-objeto)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.4) Invocação de função por call e apply `](#324-invocação-de-função-por-call-e-apply)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.5) Invocação de função por meio do new `](#325-invocação-de-função-por-meio-do-new)  
 ***
 <br><br>
-
 
 # 1) Anotações Gerais  
   
@@ -147,7 +150,7 @@ var helloWorld =  function () {
  * 
  * console.log(helloWorld()());
  * Retorno = Hello World
- * Nesse caso estamos chamado a função da função!
+ * Nesse caso estamos chamando a função da função!
  */ 
 ```  
 <br>
