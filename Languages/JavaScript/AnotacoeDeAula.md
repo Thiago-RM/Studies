@@ -230,11 +230,12 @@ var criarPessoa = function (nome, idade) {
     };
 };
 
+/* RESULTADOS */
+
 /* 
  * console.log(criarPessoa('Pedro', 20));
  * 
- * Resultado:
- * 
+ * {nome: 'Pedro', idade: 20}
  * 
  */
 ```  
@@ -246,6 +247,8 @@ var Pessoa = function (nome, idade) {
         this.nome = nome;
         this.idade =  idade;
 };
+
+/* RESULTADOS */
    
 /* 
  * console.log(new Pessoa('Pedro', 21));
@@ -253,6 +256,8 @@ var Pessoa = function (nome, idade) {
  * 
  * Resultado:
  * 
+ * {nome: 'Pedro', idade: 21}
+ * {nome: 'Maria', idade: 31}
  * 
  */
 ```  
