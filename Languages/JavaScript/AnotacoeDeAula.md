@@ -189,7 +189,7 @@ console.log(pessoa.getIdade());
 <br>
 
 ### 3.2.4) Invocação de função por call e apply   
-<br>  
+
 Call e Apply indicam em qual escopo uma função deve ser utilizada! A diferença é como tais métodos são chamados!  
   
 ```js  
@@ -217,8 +217,7 @@ getIdade.apply(pessoa, [2]); // Aqui, passamos parâmetros na forma de arrays!
 ```  
 <br>
 
-### 3.2.5) Invocação de função por meio do new
-<br>  
+### 3.2.5) Invocação de função por meio do new 
 
 **Funções Fábricas:** Retrona um novo objeto, direto, não depende de instâncias!
 
