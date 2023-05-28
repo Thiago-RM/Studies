@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.4) Invocação de função por call e apply `](#324-invocação-de-função-por-call-e-apply)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.5) Invocação de função por meio do new `](#325-invocação-de-função-por-meio-do-new)  
 ***
-<br><br>
+<br>
 
 # 1) Anotações Gerais  
 <br> 
