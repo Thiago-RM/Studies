@@ -14,8 +14,9 @@
 ***
 <br><br>
 
-# 1) Anotações Gerais  
-  
+# 1) Anotações Gerais 
+<br> 
+
 Orientação a objetos no JS = Objetos que herdam objetos.  
 
 baseada em protótipos.
@@ -30,7 +31,8 @@ _ (Underline) --> utilizado dentro de uma função (para um membro exclusivo), o
 > um array de chaves e valores!  
   
 # 2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO  
-  
+<br>
+
 ["atributo composto"] = pode ser usado dessa forma quando definido um objeto. Exemplo
 
 ```js
@@ -51,7 +53,8 @@ var meuObjeto = {
 
 
 # 3) Funções  
-   
+<br>
+
 Podem simular:  
 + Classes;  
 + Métodos;  
@@ -237,8 +240,9 @@ var criarPessoa = function (nome, idade) {
  * {nome: 'Pedro', idade: 20}
  * 
  */
-```  
-
+``` 
+ 
+<br>
 **Funções Construtoras:** Retrona um novo objeto, usa o New, começa com letra maiúsculas!
 
 ```js  
