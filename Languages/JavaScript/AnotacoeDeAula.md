@@ -28,7 +28,9 @@ $ --> cifrão usado para injeção de dependência de frameworks --> Exemplo : $
 _ (Underline) --> utilizado dentro de uma função (para um membro exclusivo), ou seja, representa o método private em uma função, deve ser chamada dentro do seu escopo. 
 
 > Em **Javascript** um objeto é uma coleção dinâmica,  
-> um array de chaves e valores!  
+> um array de chaves e valores! 
+
+<br>
   
 # 2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO  
 <br>
@@ -50,7 +52,7 @@ var meuObjeto = {
     idade = 10
 }
 ```
-
+<br>
 
 # 3) Funções  
 <br>
