@@ -14,7 +14,7 @@
 ***
 <br><br>
 
-# 1) Anotações Gerais 
+# 1) Anotações Gerais  
 <br> 
 
 Orientação a objetos no JS = Objetos que herdam objetos.  
@@ -241,7 +241,7 @@ var criarPessoa = function (nome, idade) {
  * 
  */
 ``` 
- 
+
 <br>
 **Funções Construtoras:** Retrona um novo objeto, usa o New, começa com letra maiúsculas!
 
