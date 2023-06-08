@@ -2,7 +2,7 @@
 
 ## Índice
 
-## Aula - 2.8. Nomeando variáveis
+## 1) Aula - 2.8. Nomeando variáveis
 
 Variáveis em java NÃO PODEM SER:
 
