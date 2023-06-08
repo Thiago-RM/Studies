@@ -11,6 +11,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.3) Invocação de função por Objeto `](#323-invocação-de-função-por-objeto)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.4) Invocação de função por call e apply `](#324-invocação-de-função-por-call-e-apply)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.5) Invocação de função por meio do new `](#325-invocação-de-função-por-meio-do-new)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3) Funções - Continuação`](#33-funções---continuação) 
+
 ***
 <br>
 
@@ -267,3 +269,49 @@ var Pessoa = function (nome, idade) {
  */
 ```  
 > Observe que o objeto deixa de existir (return com chaves) e o **this** referencia os atributos nome e idade.
+
+## 3.3) Funções - Continuação
+<br>
+
+Funções utilizam o escopo global para se comunicar, pois não possuem um **linker** para realizar comunicações!  
+<br>
+
+No exemplo abaixo, vemos que o escopo global está poluído, de maneira a complicar a interpretação do trecho de código!  
+
+```js  
+var counter = 0;
+var add = function () {
+    return ++counter;
+};
+
+console.log(add());
+console.log(add());
+console.log(add());
+
+/* RESULTADOS */
+   
+/* 
+ * 1 
+ * 2
+ * 3
+ * 
+ */  
+
+var itens = [];
+var add = function (item) {
+    itens.push(item);
+    return itens;
+};
+console.log(add());
+console.log(add());
+console.log(add());
+
+/* RESULTADOS */
+   
+/* 
+ * [A]
+ * [A, B]
+ * [A, B, C]
+ * 
+ */  
+```  
