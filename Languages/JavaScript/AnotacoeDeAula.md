@@ -317,10 +317,10 @@ console.log(add());
  * [A, B, C]
  * 
  */  
-```  
-### 3.3.1) Comunicando a função com o "exterior"  
-<br>
+``` 
+<br> 
 
+### 3.3.1) Comunicando a função com o "exterior"  
 ### GERANDO ENCAPSULAMENTO POR MEIO DA FACTORY FUNCTION (OU FUNÇÃO FÁBRICA!)  
   
 ```js
@@ -373,6 +373,8 @@ console.log(counter.value);
 console.log(counter.add());
 console.log(counter.add());
 ```  
+<br>
+
 ### GERANDO ENCAPSULAMENTO POR MEIO DA IIFE (Immediately-Invoked Function Expression) E TORNANDO MÉTODOS E ATRIBUTOS PRIVADOS!  
     
 ```js
