@@ -11,7 +11,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.3) Invocação de função por Objeto `](#323-invocação-de-função-por-objeto)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.4) Invocação de função por call e apply `](#324-invocação-de-função-por-call-e-apply)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.5) Invocação de função por meio do new `](#325-invocação-de-função-por-meio-do-new)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3) Funções - Continuação`](#33-funções---continuação) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3) Funções - Continuação`](#33-funções---continuação)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3.1) Comunicando a função com o "exterior" `](#331-comunicando-a-função-com-o-exterior)  
+
 
 ***
 <br>
@@ -315,4 +317,83 @@ console.log(add());
  * [A, B, C]
  * 
  */  
+```  
+### 3.3.1) Comunicando a função com o "exterior"  
+<br>
+
+### GERANDO ENCAPSULAMENTO POR MEIO DA FACTORY FUNCTION (OU FUNÇÃO FÁBRICA!)  
+  
+```js
+var createCounter = function () {
+    var value = 0;
+    // RETORNANDO UM OBJETO!
+    return {
+        add: function () {
+            return ++value;
+        }
+    };
+};
+var counter = createCounter();
+console.log(counter.value); 
+console.log(counter.add());
+```
+<br>
+
+### GERANDO ENCAPSULAMENTO POR MEIO DA CONSTRUCTOR FUNCTION (OU FUNÇÃO CONSTRUTORA!)  
+
+```js
+var Counter = function () {
+    var value = 0;
+    // UTILIZANDO O THIS (REFERENCE CONSTRUCTOR)
+    
+    this.add = function () {
+        return value++;
+    }.
+};
+var counter = new Counter();
+console.log(counter.value); 
+console.log(counter.add());
+```  
+<br>  
+
+### GERANDO ENCAPSULAMENTO POR MEIO DA IIFE (Immediately-Invoked Function Expression)  
+  
+```js
+var counter = (
+    function () {
+        var value = 0;
+        return {
+            add: function() {
+                return value++;
+            }
+        };
+    }
+)();
+console.log(counter.value); 
+console.log(counter.add());
+console.log(counter.add());
+```  
+### GERANDO ENCAPSULAMENTO POR MEIO DA IIFE (Immediately-Invoked Function Expression) E TORNANDO MÉTODOS E ATRIBUTOS PRIVADOS!  
+    
+```js
+var counter = (
+    function () {
+        var _value = 0;
+        var _add = function() {
+                return _value++;
+        };
+        var _reset = function() {
+            _value = 0;
+        };
+        return {
+            add: _add,
+            reset: _reset,
+        };
+    }
+)();
+console.log(counter.value); 
+console.log(counter.add());
+console.log(counter.add());
+counter.reset();
+console.log(counter.add());
 ```  
