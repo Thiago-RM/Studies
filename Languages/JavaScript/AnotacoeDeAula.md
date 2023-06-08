@@ -245,9 +245,10 @@ var criarPessoa = function (nome, idade) {
  * 
  */
 ``` 
-
 <br>
+
 **Funções Construtoras:** Retrona um novo objeto, usa o New, começa com letra maiúsculas!
+
 
 ```js  
 var Pessoa = function (nome, idade) {
