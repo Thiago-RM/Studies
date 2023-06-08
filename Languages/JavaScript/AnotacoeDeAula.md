@@ -272,6 +272,7 @@ var Pessoa = function (nome, idade) {
  */
 ```  
 > Observe que o objeto deixa de existir (return com chaves) e o **this** referencia os atributos nome e idade.
+<br>
 
 ## 3.3) Funções - Continuação
 <br>
