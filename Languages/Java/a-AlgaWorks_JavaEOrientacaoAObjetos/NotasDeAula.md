@@ -11,7 +11,7 @@ int 2alunos;
  <br><br>
 
 
-1. $ _ podem, mas não devem ser usados! Exemplo:
+1. $ e _ podem, mas não devem ser usados! Exemplo:
 
 $quantidade == ok!
 _quantidade == ok!
