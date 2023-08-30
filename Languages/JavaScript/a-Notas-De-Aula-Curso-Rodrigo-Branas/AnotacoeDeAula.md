@@ -84,7 +84,7 @@ function soma (a, b) {
     return a + b;
 }
 ```  
-Exemplo mais convencional de função. Seria aquela que estamos mais abtuados a ver!  
+Exemplo mais convencional de função. Seria aquela que estamos mais habituados a ver!  
 
 A **Funcition Declaration** é carregada antes da interpretação, ou seja, invocá-la antes não faz diferença em seu funcionamento.   
 <br> 
