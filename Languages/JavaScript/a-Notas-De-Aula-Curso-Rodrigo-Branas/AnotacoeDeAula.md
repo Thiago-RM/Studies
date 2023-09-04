@@ -15,7 +15,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3.1) Comunicando a função com o "exterior" `](#331-comunicando-a-função-com-o-exterior)  
 
 
-***
+***Correção de notas de aula Java.
 <br>
 
 # 1) Anotações Gerais  
@@ -321,7 +321,7 @@ console.log(add());
 ``` 
 <br> 
 
-### 3.3.1) Comunicando a função com o "exterior"  
+### 3.3.1) Comunicando a função com o "exterior" [Voltar ao Índice](#331-comunicando-a-função-com-o-exterior)
 ### GERANDO ENCAPSULAMENTO POR MEIO DA FACTORY FUNCTION (OU FUNÇÃO FÁBRICA!)  
   
 ```js
