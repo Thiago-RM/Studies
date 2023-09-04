@@ -400,3 +400,10 @@ console.log(counter.add());
 counter.reset();
 console.log(counter.add());
 ```  
+
+<div class="alert alert-warning">
+  **Aviso:** splice remover, alterar ou incluir!
+</div>
+
+
+slice será o índice menos 1!
