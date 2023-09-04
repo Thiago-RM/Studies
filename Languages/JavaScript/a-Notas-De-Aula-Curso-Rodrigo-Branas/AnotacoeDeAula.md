@@ -319,8 +319,7 @@ console.log(add());
 ``` 
 <br> 
 
-### 3.3.1) Comunicando a função com o "exterior"  
-[Voltar ao Indice](#Index) 
+### 3.3.1) Comunicando a função com o "exterior"  [Voltar ao Indice](#Index) 
 ### GERANDO ENCAPSULAMENTO POR MEIO DA FACTORY FUNCTION (OU FUNÇÃO FÁBRICA!)  
   
 ```js
