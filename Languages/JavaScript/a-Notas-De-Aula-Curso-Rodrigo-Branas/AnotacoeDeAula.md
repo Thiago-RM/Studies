@@ -64,7 +64,7 @@ Podem simular:
 + Métodos;  
 + Construtores; e  
 + Módulo;  
-
+[Voltar ao Índice]
 As variáveis em JS podem ser outras funções:  
 ```js
 const x = function (a, b) {
@@ -319,7 +319,7 @@ console.log(add());
 ``` 
 <br> 
 
-### 3.3.1) Comunicando a função com o "exterior" (#331-comunicando-a-função-com-o-exterior)  
+### 3.3.1) Comunicando a função com o "exterior"
 ### GERANDO ENCAPSULAMENTO POR MEIO DA FACTORY FUNCTION (OU FUNÇÃO FÁBRICA!)  
   
 ```js
