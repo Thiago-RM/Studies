@@ -38,8 +38,9 @@ $ --> cifrão usado para injeção de dependência de frameworks --> Exemplo : $
 _ (Underline) --> utilizado dentro de uma função (para um membro exclusivo), ou seja, representa o método private em uma função, deve ser chamada dentro do seu escopo. 
 
 > Em **Javascript** um objeto é uma coleção dinâmica,  
-> um array de chaves e valores! 
-
+> um array de chaves e valores!  
+  
+[Voltar ao Índice](#index)
 <br>
   
 # 2) Anotações sobre sintaxe - ATRIBUTO COMPOSTO  
@@ -62,6 +63,7 @@ var meuObjeto = {
     idade = 10
 }
 ```
+[Voltar ao Índice](#index)
 <br>
 
 # 3) Funções  
@@ -562,3 +564,4 @@ No array do exemplo anterior, somente indicamos quantas posições esse array po
 
 Parei em ForEach 14:48!
 slice será o índice menos 1!
+[Voltar ao Índice](#index)
