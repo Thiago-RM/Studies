@@ -572,5 +572,6 @@ No array do exemplo anterior, somente indicamos quantas posições esse array po
 ```  
 
 Parei em ForEach 14:48!
-slice será o índice menos 1!
+slice será o índice menos 1!  
+  
 [Voltar ao Índice](#index)
