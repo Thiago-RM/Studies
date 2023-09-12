@@ -414,6 +414,9 @@ console.log(counter.add());
 counter.reset();
 console.log(counter.add());
 ```  
+  
+[Voltar ao Índice](#index)
+<br>
 
 # 4) Arrays  
 <br>
