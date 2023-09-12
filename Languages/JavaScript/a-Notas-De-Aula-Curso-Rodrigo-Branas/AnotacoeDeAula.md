@@ -94,7 +94,9 @@ function soma (a, b) {
 ```  
 Exemplo mais convencional de função. Seria aquela que estamos mais habituados a ver!  
 
-A **Funcition Declaration** é carregada antes da interpretação, ou seja, invocá-la antes não faz diferença em seu funcionamento.   
+A **Funcition Declaration** é carregada antes da interpretação, ou seja, invocá-la antes não faz diferença em seu funcionamento.  
+  
+[Voltar ao Índice](#index)
 <br> 
 
 ### 3.1.2) Funciton Expression
@@ -118,6 +120,8 @@ var soma = function soma (a, b) {
 Nesse caso, temos o nome na função e na variável, auxilia bastante durante debbugings, stack traces e listas de breakpoints!
 
 Agora, a **Function Expression** e a **Function Named Expression** são carregadas durante a interpretação do código, ou seja, primeiro as declaramos e em seguida as invocamos!  
+  
+[Voltar ao Índice](#index)
 <br>
 
 ## 3.2) Exemplo de invocação de funções 
@@ -279,7 +283,9 @@ var Pessoa = function (nome, idade) {
  * 
  */
 ```  
-> Observe que o objeto deixa de existir (return com chaves) e o **this** referencia os atributos nome e idade.
+> Observe que o objeto deixa de existir (return com chaves) e o **this** referencia os atributos nome e idade.  
+  
+[Voltar ao Índice](#index)
 <br>
 
 ## 3.3) Funções - Continuação
