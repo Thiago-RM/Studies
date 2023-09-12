@@ -12,12 +12,20 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.4) Invocação de função por call e apply `](#324-invocação-de-função-por-call-e-apply)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.2.5) Invocação de função por meio do new `](#325-invocação-de-função-por-meio-do-new)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3) Funções - Continuação`](#33-funções---continuação)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3.1) Comunicando a função com o "exterior" `](#331-comunicando-a-função-com-o-exterior)
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`3.3.1) Comunicando a função com o "exterior" `](#331-comunicando-a-função-com-o-exterior)  
+[`4) Arrays`](#4-arrays)  
+&nbsp;&nbsp;&nbsp;&nbsp;[`4.1) A API de Arrays em JS`](#41-a-api-de-arrays-em-js)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.1) valueOf()`](#411-valueof)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.2) length()`](#412-length)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.3) push()`](#413-push)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.4) pop()`](#414-pop)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.5) unshift()`](#415-unshift)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.6) shift()`](#416-shift)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.7) splice()`](#417-splice) 
 <br>
 
 # 1) Anotações Gerais  
-<br> 3.3.1
+<br>
 
 Orientação a objetos no JS = Objetos que herdam objetos.  
 
@@ -64,7 +72,7 @@ Podem simular:
 + Métodos;  
 + Construtores; e  
 + Módulo;  
-[Voltar ao Índice]
+
 As variáveis em JS podem ser outras funções:  
 ```js
 const x = function (a, b) {
@@ -399,9 +407,158 @@ counter.reset();
 console.log(counter.add());
 ```  
 
-<div class="alert alert-warning">
-  **Aviso:** splice remover, alterar ou incluir!
-</div>
+# 4) Arrays  
+<br>
 
+    Arrays em JavaScript não são como arrays convencionais de outras linguagens, na verdade, eles são objetos especiais que oferecem meios para manipular propriedades através de índices!  
 
+```js
+    /* Declaração simples de um array */
+    var carros = [];
+
+    /* Outro exemplo: Array inicializado! */
+    var carros = ['Ford', 'Fiat', 'Volks'];
+
+    /* Construindo um array com função construtora: */
+    var carros = new Array();
+
+    /* Construindo um array com função construtora definindo uma quantidade inicial de elementos: */
+    var carros = new Array(10);
+```  
+  
+Lembrando que em JavaScript, indicar a quantidade de elementos não significa limitá-lo, pois o Array não tem tamanho fixo.  
+No array do exemplo anterior, somente indicamos quantas posições esse array pode ter, ou seja, trata-se de inicializar o array com 10 posições!  
+  
+## 4.1) A API de Arrays em JS  
+### 4.1.1) valueOf()  
+
+    O valueOf() apenas demonstra o array em tela:
+
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    > carros.valueOf();
+
+    /* RESULTADO 
+        * ["Ka", "Corsa", "Palio"]
+        */
+```
+
+### 4.1.2) length()  
+
+    O length() retorna o tamanho do array em tela:  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    > carros.length();
+
+    /* RESULTADO 
+     * 3
+     */
+```  
+  
+### 4.1.3) push()  
+
+    Insere um elemento no final do array!  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    > carros.push("Gol");
+
+    /* RESULTADO 
+     * ["Ka", "Corsa", "Palio", "Gol"];
+     */
+``` 
+  
+### 4.1.4) pop()  
+
+    Remove um elemento no final do array!  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio", "Gol"];
+    > carros.pop();
+
+    /* RESULTADO 
+     * ["Ka", "Corsa", "Palio"];
+     */
+```  
+
+### 4.1.5) unshift()  
+
+    Insere um elemento no início do array!  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    > carros.unshift("Gol");
+
+    /* RESULTADO 
+     * ["Gol", "Ka", "Corsa", "Palio"];
+     */
+```  
+
+### 4.1.6) shift()  
+
+    Remove um elemento no início do array!  
+  
+```js
+    var carros = ["Gol", "Ka", "Corsa", "Palio"];
+    > carros.shift("Gol");
+
+    /* RESULTADO 
+     * ["Ka", "Corsa", "Palio"];
+     */
+```  
+  
+### 4.1.7) splice()  
+
+    Permite trocar, remover e inserir um elemento em uma determinada posição do array!  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    > carros.splice(1, 1);
+
+    /* RESULTADO 
+     *   Remoção de elementos!
+     * ['Corsa']
+     *
+     * > carros
+     * 
+     * ["Ka", "Palio"];
+     */
+```  
+
+```js
+    var carros = ["Ka", "Corsa", "Palio"];  
+    > carros.splice(1, 1, "Sonic");  
+
+    /*    
+     * Para esse caso, o terceiro parâmetro será responsável 
+     * pela inserção! 
+     * Já o segundo parâmetro (2) é responsável pela remoção!
+     */  
+  
+    /* RESULTADO 
+     *   Troca de elementos!
+     * ['Corsa']
+     *
+     * > carros
+     * 
+     * ["Ka", "Sonic", "Palio"];
+     */
+```  
+
+```js
+    var carros = ["Ka", "Sonic", "Palio"];  
+    > carros.splice(1, 0, "Corsa");  
+
+    /* RESULTADO 
+     *   Inserção de elementos!
+     * []
+     *
+     * > carros
+     * 
+     * ["Ka", "Corsa", "Sonic", "Palio"];
+     */
+```  
+
+Parei em ForEach 14:48!
 slice será o índice menos 1!
