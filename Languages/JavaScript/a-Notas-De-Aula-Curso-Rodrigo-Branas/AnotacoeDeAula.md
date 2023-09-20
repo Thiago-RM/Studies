@@ -877,7 +877,7 @@ Junta os elementos de um array e utiliza um separador.
 
     /*
     * RESULTADO
-    * > 'Ka;Corsa;Palio;Gol']
+    * > 'Ka;Corsa;Palio;Gol'
     */  
 ```  
    
