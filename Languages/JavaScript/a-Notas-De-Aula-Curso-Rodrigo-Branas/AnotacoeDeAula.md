@@ -23,6 +23,28 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.6) shift()`](#416-shift)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.7) splice()`](#417-splice) 
 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.8) forEach()`](#418-forEach) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.9) filter()`](#419-filter) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.10) every()`](#4110-every) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.11) some()`](#4111-some) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.12) map()`](#4112-map) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.13) reduce()`](#4113-reduce) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.14) concat()`](#4114-concat) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.15) slice()`](#4115-slice) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.16) reverse()`](#4116-reverse) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.17) sort()`](#4117-sort) 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.18) join()`](#4118-join) 
+<br>
 
 # 1) Anotações Gerais  
 <br>
@@ -569,9 +591,296 @@ No array do exemplo anterior, somente indicamos quantas posições esse array po
      * 
      * ["Ka", "Corsa", "Sonic", "Palio"];
      */
+```    
+[Voltar ao Índice](#index)
+<br>
+
+### 4.1.8) forEach()  
+
+    Permite iterar índice a índice do array, assim como um for clássico (utilizando incremento)!  
+  
+```js
+    var carros = ["Ka", "Corsa", "Palio"];
+    
+    > carros.forEach(function (elementos) {
+       console.log(elementos); 
+    });
+
+    /* RESULTADO 
+     * Ka
+     * Corsa
+     * Sonic
+     * Palio
+     * undefined
+     */
 ```  
 
-Parei em ForEach 14:48!
-slice será o índice menos 1!  
+```js
+    /*For Clássico*/
+    var carros = ["Ka", "Corsa", "Palio"];
+    
+    > for(var i = 0; i < carros.length; i++) {
+        console.log(carros[i]);
+    }
+
+    /* RESULTADO 
+     * Ka
+     * Corsa
+     * Sonic
+     * Palio
+     * undefined
+     */
+```
+[Voltar ao Índice](#index)  
+<br>
+
+### 4.1.9) filter()  
+  
+Nos permite "filtrar" uma busca de acordo com um elemento do array!  
+
+```js
+    var carros = [];
+    carros[0] = {marca: "Ford", modelo: "Ka"}; 
+    carros[1] = {marca: "Chevrolet", modelo: "Corsa"}; 
+    carros[2] = {marca: "Fiat", modelo: "Palio"};
+
+    carros.filter(function (elemento) {
+        return elemento.marca === "Ford";
+    });
+
+    
+    /* RESULTADO 
+     * >[{marca: "Ford", modelo: "Ka"}]
+     */
+```  
   
 [Voltar ao Índice](#index)
+<br>
+
+### 4.1.10) every()  
+  
+Nos permite "saber" se todos os elementos são de um determinado tipo!  
+
+```js
+    var carros = [];
+    carros[0] = {marca: "Ford", modelo: "Ka"}; 
+    carros[1] = {marca: "Chevrolet", modelo: "Corsa"}; 
+    carros[2] = {marca: "Fiat", modelo: "Palio"};
+
+    carros.every(function (elemento) {
+        return elemento.marca === "Ford";
+    });
+    
+    /* RESULTADO 
+     * > false
+     */
+```  
+  
+[Voltar ao Índice](#index)
+<br>
+
+### 4.1.11) some()  
+  
+Nos permite "saber" se algum dos elementos são de um determinado tipo!  
+
+```js
+    var carros = [];
+    carros[0] = {marca: "Ford", modelo: "Ka"}; 
+    carros[1] = {marca: "Chevrolet", modelo: "Corsa"}; 
+    carros[2] = {marca: "Fiat", modelo: "Palio"};
+
+    carros.some(function (elemento) {
+        return elemento.marca === "Ford";
+    });
+    
+    /* RESULTADO 
+     * > true
+     */
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.12) map()  
+  
+Nos permite mapear os elementos os transformando, de forma a derivar um novo array!  
+
+```js
+    var carros = [];
+    carros[0] = {marca: "Ford", modelo: "Ka"}; 
+    carros[1] = {marca: "Chevrolet", modelo: "Corsa"}; 
+    carros[2] = {marca: "Fiat", modelo: "Palio"};
+
+    carros.map(function (elemento) {
+        return elemento.marca;
+    });
+    
+    /* RESULTADO 
+     * > [ 'Ford', 'Chevrolet', 'Fiat']
+     */
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.13) reduce()  
+  
+Nos permite fazer um processamento e uma acumulação em um array!  
+
+```js
+    var carros = [];
+    carros[0] = {modelo: "Ka", preco: 28800};
+    carros[1] = {modelo: "Corsa", preco: 34750}; 
+    carros[2] = {modelo: "Palio", preco: 32000};
+
+    carros.reduce(function (prev, curl) {
+        return prev + cur.preco;
+    }, 0);
+    
+    // o 0 aqui em questão é onde começa o valor de soma, ou seja, o termo
+    // prev!
+
+    /* RESULTADO 
+     * > 95550
+     */
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.14) concat()  
+  
+Não muda o estado original do array, na verdade ele gera um novo array!  
+
+```js
+    var carros = ["Ka", "Corsa", "Palio"]; 
+    var motos = ["Honda", "Yamaha"];
+    
+    var veiculos = carros.concat(motos);
+    veiculos.toString(); 
+
+    /* RESULTADO 
+     * > ["Ka", "Corsa", "Palio", "Honda", "Yamaha"]
+     */
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.15) slice()  
+  
+Serve para "fatiar" o array, começando em uma posição e terminando em outra. Lembrando que a posição será o índice menos 1.
+
+```js
+    var carros = [];  
+    carros[0] = "Ka";  
+    carros[1] = "Corsa";  
+    carros[2] = "Palio";  
+    carros[3] = "Gol";  
+    carros.slice(0,2); // ["Ka", "Corsa"]  
+    carros.slice(1,3); // ["Corsa", "Palio"]  
+    carros.slice(2); // ["Palio", "Gol"]  
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.16) reverse()  
+  
+Reverte os índices do array.
+
+```js
+    var carros = [];  
+    carros[0] = "Ka";  
+    carros[1] = "Corsa";  
+    carros[2] = "Palio";  
+    carros[3] = "Gol";  
+
+    carros.reverse();
+
+    /*
+    * RESULTADO
+    * ['Gol',
+    *  'Palio',
+    *  'Corsa',
+    *  'Ka'
+    * ]
+    */  
+```  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+## 4.1.17) sort()  
+  
+Ordena os elementos do array.
+
+```js
+    var carros = [];
+    carros[0] = {modelo: "Ka", preco: 28800};
+    carros[1] = {modelo: "Corsa", preco: 34750}; 
+    carros[2] = {modelo: "Palio", preco: 32000};
+
+    carros.sort(function (a, b) {
+        return a.preco - b.preco;
+    }, 0);
+
+    /*
+    * RESULTADO
+    * carros.valueOf();
+    * > ['Ka', 'Palio', 'Corsa']
+    */  
+```  
+    Outro exemplo
+
+```js
+    var carros = [];
+    carros[0] = {modelo: "Ka", preco: 28800};
+    carros[1] = {modelo: "Corsa", preco: 34750}; 
+    carros[2] = {modelo: "Palio", preco: 32000};
+
+    carros.sort(function (a, b) {
+        return a.preco - b.preco;
+    }, 0);
+
+    
+
+    /*
+    * RESULTADO
+    * carros.valueOf();
+    * > ['Ka', 'Palio', 'Corsa']
+    */  
+```  
+
+    O sort, tal como está na função acima, pode retornar três valores:  
+    1) Positivo: posição b vai a frente da posição a;  
+    2) Negativo: posição a vai a frente da posição b;  
+    3) 0: Não há mudança na posição dos elementos!  
+  
+[Voltar ao Índice](#index)  
+<br>
+
+
+## 4.1.18) join()  
+  
+Junta os elementos de um array e utiliza um separador.
+
+```js
+    var carros = [];  
+    carros[0] = "Ka";  
+    carros[1] = "Corsa";  
+    carros[2] = "Palio";  
+    carros[3] = "Gol";  
+
+    carros.join(";");
+
+
+    /*
+    * RESULTADO
+    * > 'Ka;Corsa;Palio;Gol']
+    */  
+```  
+   
+[Voltar ao Índice](#index)  
+<br>
+
