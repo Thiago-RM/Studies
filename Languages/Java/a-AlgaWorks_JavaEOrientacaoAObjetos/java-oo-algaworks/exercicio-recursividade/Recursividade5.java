@@ -12,9 +12,7 @@ public class Recursividade5 {
 
         for (int i = 0; i < (valor - 1); i++) {
 
-            if (i >= 0) {
-                System.out.println(seqPell(i) + " + " + 2 * seqPell(i + 1) + " = " + seqPell(i + 2));
-            }
+            System.out.println(seqPell(i) + " + " + 2 * seqPell(i + 1) + " = " + seqPell(i + 2));
         }
     }
 
