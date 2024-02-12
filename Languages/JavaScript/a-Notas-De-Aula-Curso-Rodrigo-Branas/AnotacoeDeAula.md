@@ -45,6 +45,8 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[`4.1.18) join()`](#4118-join) 
 <br>
+[`5) RegExp - Expressões Regulares`](#5-regexp---expressões-regulares)   
+
 
 # 1) Anotações Gerais  
 <br>
@@ -883,4 +885,52 @@ Junta os elementos de um array e utiliza um separador.
    
 [Voltar ao Índice](#index)  
 <br>
+
+
+# 5) RegExp - Expressões Regulares  
+<br>  
+
+Exemplos de operações encontradas na API RegExp:  
+> exec: Executa a RegExp, retornando os detalhes;  
+  
+> test: Testa a RegExp, retornando true ou false.  
+  
+Exemplos:
+ ```js 
+    /* exec */
+    var regExp = /9999-9999/;  
+    var telefone = "9999-9999";  
+    console.log(regExp.exec(telefone));  
+  
+   /*
+    * RESULTADO  
+    * > [ '9999-9999', index:0, input:'9999-9999' ]  
+    */  
+
+     /* test */
+    var regExp = /9999-9999/;  
+    var telefone = "9999-9999";  
+    console.log(regExp.test(telefone));  
+  
+   /*
+    * RESULTADO  
+    * > true
+    */  
+```  
+  
+### Caracteres especiais em RegExp  
+  
+```js
+    var regExp = /\(48\)9999-9999/;
+```
+  
+> Para o caso acima utilizamos a contra barra (\)
+
+O acento ^ (circunflexo) determina o ínicio com um determinado caractere!  
+
+ $ -  determina o fim de um determinado caratere!  
+
+Parei em 17:04
+   
+[Voltar ao Índice](#index)  
 
