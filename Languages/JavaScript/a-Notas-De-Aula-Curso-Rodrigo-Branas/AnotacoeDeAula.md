@@ -932,7 +932,7 @@ O acento ^ (circunflexo) determina o ínicio com um determinado caractere!
 
 ```js  
 /* Exemplo de inserção de telefone com máscara! */
-/^\([0-9]{2}\) [0-9]{1} [0-9]{4}-[0-9]{4}$\  
+/^\([0-9]{2}\) [0-9]{1} [0-9]{4}-[0-9]{4}$/  
 ```  
 
 Parei em 17:04
