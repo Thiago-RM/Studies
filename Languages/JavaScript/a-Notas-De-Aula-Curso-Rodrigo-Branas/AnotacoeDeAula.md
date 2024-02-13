@@ -935,7 +935,39 @@ O acento ^ (circunflexo) determina o ínicio com um determinado caractere!
 /^\([0-9]{2}\) [0-9]{1} [0-9]{4}-[0-9]{4}$/  
 ```  
 
-Parei em 17:04
-   
-[Voltar ao Índice](#index)  
+Exemplo com o novo padrão de telefone celular:  
+```js  
+/* Exemplo de inserção de telefone com máscara! */
+/^\([0-9]{2}\) [0-9]{1} [0-9]{4,5}-[0-9]{4}$/  
+``` 
 
+Exemplo com máscara para fixo e celular!
+```js  
+/^\([0-9]{2}\)(\s[0-9]{1}?)?\s[0-9]{4}-?[0-9]{4}$/
+```  
+
+Exemplo com máscara para fixo e celular, com metacaracteres!
+```js  
+/^\([\d]{2}\)(\s[\d]{1}?)?\s[\d]{4}-?[\d]{4}$/
+```  
+   
+Utilizando os métodos match e splite da API de String
+```js  
+// Utilização do match!
+
+var regExp = /\([\d]{2}\)(\s[\d]{1}?)?\s[\d]{4}-?[\d]{4}/g;
+
+/* \d == Dígitos
+ * \g == busca global pelo o que está contido na regex!
+ */
+var telefone ="<table>\
+                    <tr>\
+                        <td>(80) 999778899</td>\
+                        <td>(90) 9897-8877</td>\
+                        <td>(70) 9 8767-9999</td>\
+                    </tr>\
+                </table>";  
+  
+console.log(regExp = telefone.match(regExp));
+``` 
+[Voltar ao Índice](#index)  
