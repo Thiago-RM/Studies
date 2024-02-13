@@ -951,7 +951,7 @@ Exemplo com máscara para fixo e celular, com metacaracteres!
 /^\([\d]{2}\)(\s[\d]{1}?)?\s[\d]{4}-?[\d]{4}$/
 ```  
    
-Utilizando os métodos match e splite da API de String
+Utilizando os métodos match e replace da API de String
 ```js  
 // Utilização do match!
 
